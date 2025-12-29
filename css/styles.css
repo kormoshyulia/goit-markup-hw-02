@@ -1,6 +1,7 @@
 body {
-    color: #2E2F42;
-    font-family: 'Roboto';
+    color: #434455;
+    background-color: #FFFFFF;
+    font-family: 'Roboto',  sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
@@ -19,7 +20,11 @@ body {
     font-family: 'Roboto';
     font-size: 36px;
     font-weight: bold;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color:#2E2F42;
   }
   h3 {
     font-family: 'Roboto';
@@ -38,15 +43,47 @@ body {
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 2%;
-    line-height: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color:#434455;
   
   }
+  .team-header{
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  .feature-header{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  .team-p{
+    letter-spacing: 0.02em
+  }
+  .portfolio-section{
+
+  }
+  .hero-header{
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+  .portfolio-header{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+  }
+  
+  .portfolio-p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+  }
   .button-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     line-height: 24px;
   }
   a {
@@ -54,8 +91,11 @@ body {
     font-family: 'Roboto';
     font-size: 12px;
     font-weight: 400;
-    letter-spacing: 4%;
+    letter-spacing: 0.02em;
     line-height: 16px; 
+  }
+  a:focus {
+    color: #404bbf;
   }
   header {
     display: flex;
@@ -82,11 +122,16 @@ body {
     color: #404BBF;
   }
   .logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+   text-transform: uppercase;
+   color: #4d5ae5 ;
+    letter-spacing: 0.03em; 
+    line-height: 1.17;
+    
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
+   
+    
   }
   .logo-white{
     color: #F4F4FD;
@@ -115,8 +160,12 @@ body {
     border: none;
     border-radius: 4px;
     font-size: 16px;
+    cursor:pointer;
   }
   .btn-primary:hover {
+    background-color: #404BBF;
+  }
+  .btn-primary:focus {
     background-color: #404BBF;
   }
   .features {
@@ -153,17 +202,21 @@ box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     text-align: center;
     padding-bottom: 36px;
   }
+  address{
+    font-style: normal;
+  }
   .team-section {
     background-color: #F4F4FD;
     padding: 60px 120px;
   }
-  footer {
+  .app-footer {
     background-color: #2E2F42;
     color:#F4F4FD;
     
     padding: 120px 120px;
   }
-  footer p {
+  .footer-p {
     max-width: 264px;
     font-size: 16px;
+    letter-spacing: 0.02em;
   }
