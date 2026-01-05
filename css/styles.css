@@ -1,37 +1,8 @@
-body {
-    color: #434455;
-    background-color: #FFFFFF;
-    font-family: 'Roboto',  sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-  }
+
   .feature {
     max-width: 250px;
   }
-  h1 {
-    font-family: 'Roboto';
-    font-size: 56px;
-    font-weight: bold;
-    letter-spacing: 2%; 
-    line-height: 60px;
-  }
-  h2 {
-    font-family: 'Roboto';
-    font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 0.02em;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color:#2E2F42;
-  }
-  h3 {
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 2%;
-  }
+
   .small {
     font-family: 'Roboto';
     font-size: 12px;
@@ -90,42 +61,33 @@ body {
     font-size: 16px ;
     line-height: 1.5;
     color:#434455;
-  }
-  a {
-   text-decoration: none;
+    text-decoration: none;
     font-family: 'Roboto';
-    font-size: 12px;
+   
     font-weight: 400;
     letter-spacing: 0.02em;
-    line-height: 16px; 
+    
   }
-  a:focus {
+  .contact-link{
+    color: #434455
+  }
+ 
+  .contact-link:focus {
+    color: #404bbf;
+  }
+  .contact-link:hover {
     color: #404bbf;
   }
   .feature-header{
     letter-spacing: 0.02em;
     color: #2E2F42;
   }
-  header {
-    
-    justify-content: space-between;
-    background-color: white;
-   
-  }
-  nav a {
-    margin: 0 15px;
-    color: #2E2F42;
-    font-family: 'Roboto';
-    font-weight: normal;
-  }
-  nav a:hover {
-    color: #404BBF;
-  }
+  
   .contact-info {
    
     
     text-align: right;
-    color:#434455;
+    
   }
   .contact:hover {
     color: #404BBF;
@@ -157,10 +119,7 @@ body {
     text-align: center;
     
   }
-  .hero h1{
-    font-size: 56px;
-    font-weight: bold;
-  }
+
   
   .btn-primary {
     background-color: #4D5AE5;
@@ -198,7 +157,7 @@ border-bottom-left-radius: 4px;
     
     
   }
-  .team-card img{
+  .team-card-img{
    
    
     object-fit: cover;
@@ -212,9 +171,7 @@ border-bottom-left-radius: 4px;
     text-align: center;
     padding-bottom: 36px;
   }
-  address{
-    font-style: normal;
-  }
+  
   .team-section {
     background-color: #F4F4FD;
    
