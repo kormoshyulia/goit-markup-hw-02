@@ -1,4 +1,9 @@
-
+body {
+  color: #434455;
+  background-color: #FFFFFF;
+  font-family: 'Roboto',  sans-serif;
+ 
+}
   .feature {
     max-width: 250px;
   }
@@ -23,6 +28,8 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    font-size: 36px;
+    color: #2e2f42;
   }
   .feature-header{
     line-height: 1.2;
@@ -37,13 +44,31 @@
   .hero-header{
     line-height: 1.07;
     letter-spacing: 0.02em;
+    font-size: 56px;
+  }
+  .feature-main-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
   }
   .portfolio-header{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+
   }
-  
+  .portfolio-h{
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+  }
   .portfolio-p{
     font-size: 16px;
     line-height: 1.5;
@@ -112,6 +137,19 @@
   }
   .logo-black{
     color: #2E2F42;
+    
+  }
+  .main-link{
+    color: #2E2F42;
+  }
+ address{
+  font-style: normal;
+ }
+  .main-link:focus {
+    color: #404bbf;
+  }
+  .main-link:hover {
+    color: #404bbf;
   }
   .hero{
     background-color: #2E2F42;
@@ -186,4 +224,5 @@ border-bottom-left-radius: 4px;
     max-width: 264px;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
   }
